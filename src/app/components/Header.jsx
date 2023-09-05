@@ -28,7 +28,7 @@ function Header() {
             through our best-in-class solutions.
           </p>
           <button
-            onClick={() => router.push("../../jobs")}
+            onClick={() => router.push("jobs")}
             className={styles.header_butt}
           >
             Proceed
