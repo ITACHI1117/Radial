@@ -8,15 +8,14 @@ function Header() {
   const router = useRouter();
   return (
     <div className={styles.Header}>
-      <div className={styles.overflow}></div>
-      {/* <div className={styles.Header_img}>
+      <div className={styles.Header_img}>
         <Image
           src="/home_logo.jpg"
           width={2800}
           height={1500}
           alt="radial logo"
         />
-      </div> */}
+      </div>
       <div className={styles.grid}>
         <div className={styles.texts}>
           <h1>Fuel the future of eCommerce</h1>
@@ -28,10 +27,10 @@ function Header() {
             through our best-in-class solutions.
           </p>
           <button
-            onClick={() => router.push("jobs")}
+            onClick={() => router.push("../jobs")}
             className={styles.header_butt}
           >
-            Proceed
+            Find Jobs
           </button>
         </div>
         <img

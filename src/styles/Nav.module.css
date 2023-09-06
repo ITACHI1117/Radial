@@ -1,11 +1,14 @@
 .nav {
+  position: fixed;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background-color: transparent;
-  height: 110px;
+  background-color: white;
+  height: 120px;
   width: 100vw;
+  top: 0;
+  z-index: 2;
 }
 .nav_img {
   padding-left: 70px;
@@ -16,7 +19,7 @@
   height: 40px;
   background-color: transparent;
   color: black;
-  border: 2px solid #f04e55;
+  border: 1px solid #f04e55;
   border-radius: 20px;
   font-size: 13px;
   cursor: pointer;
