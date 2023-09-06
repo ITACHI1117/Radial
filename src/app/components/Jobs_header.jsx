@@ -16,13 +16,11 @@ function Jobs_header() {
       <div className={styles.texts}>
         <h1>Job Requirements</h1>
         <ul>
-          <li>
-            Are you must be a U.S. Citizen or Canadian Citizen Green - Card
-            Holder
-          </li>
-          <li>Must be fluent in communication and English</li>
-          <li>Must be at least 30wpm average</li>
-          <li>Must be 18+ average.....</li>
+          <li>You must be a U.S. Citizen or Canadian Citizen.</li>
+          <li>Green - Card Holder.</li>
+          <li>You must be fluent in communicating in English.</li>
+          <li>You must be at least 30wpm average.</li>
+          <li>You must be 18+ (Average).</li>
         </ul>
         <button
           onClick={() => router.push("/Positions")}
