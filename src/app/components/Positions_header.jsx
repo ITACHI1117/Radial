@@ -20,7 +20,7 @@ function Positions_header() {
 
   const confirm_code = () => {
     if (code == Interview_code) {
-      router.push("https://forms.gle/srR98EZ2cP63sUT19");
+      router.replace("https://forms.gle/srR98EZ2cP63sUT19");
     } else {
       setShowError(true);
       setTimeout(() => {

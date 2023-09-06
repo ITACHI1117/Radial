@@ -18,11 +18,11 @@ function Jobs_header() {
         <ul>
           <li>
             Are you must be a U.S. Citizen or Canadian Citizen Green - Card
-            Holder (tickbox should be beside these)
+            Holder
           </li>
-          <li>Must be fluent in communication and English (yes/no tick box)</li>
-          <li>Must be at least 30wpm average (yes/no tick box )</li>
-          <li>Must be 18+ average.....(yes/no tick box)</li>
+          <li>Must be fluent in communication and English</li>
+          <li>Must be at least 30wpm average</li>
+          <li>Must be 18+ average.....</li>
         </ul>
         <button
           onClick={() => router.push("/Positions")}

@@ -146,3 +146,137 @@
   background-color: transparent;
   color: white;
 }
+
+@media screen and (max-width: 1000px) {
+  .grid {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: #222e72ee;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+  }
+  .popUp {
+    display: flex;
+    align-items: auto;
+    justify-content: auto;
+    width: 100vw;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.345);
+    transition: 1;
+    z-index: 1;
+  }
+  .cancel {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+  }
+  .wrong_code {
+    font-size: 15px;
+    color: red;
+    position: absolute;
+    bottom: 10px;
+    transition: 1s;
+    font-weight: 200;
+  }
+  .form_container {
+    margin-top: 50px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 50%;
+    background-color: white;
+    border-radius: 20px;
+    transition: 1;
+  }
+  .form_container h1 {
+    padding-bottom: 10px;
+    font-size: 20px;
+  }
+  .form_container form {
+    padding-bottom: 10px;
+  }
+  .form_container form input {
+    width: 250px;
+    height: 25px;
+    border: 2px solid #222e72;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: 12px;
+  }
+  .form_container button {
+    width: 100px;
+    height: 30px;
+    background-color: #222e72;
+    color: white;
+    border: none;
+    border-radius: 20px;
+
+    cursor: pointer;
+    font-size: 13px;
+    transition: 0.5s;
+  }
+  .jobs_grid {
+    display: grid;
+    grid-template-columns: 300px;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+    padding-bottom: 50px;
+  }
+  .texts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    color: white;
+    margin-left: 10px;
+  }
+  .texts h1 {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 10px;
+  }
+  .texts h3 {
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 10px;
+  }
+  .texts p {
+    font-weight: 400;
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .header_img2 {
+    margin-top: 30px;
+    width: 300px;
+    border-radius: 100%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .form_container {
+    margin-top: 0px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 25%;
+    background-color: white;
+    border-radius: 20px;
+    transition: 1;
+  }
+}

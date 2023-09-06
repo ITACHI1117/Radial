@@ -14,6 +14,7 @@
   padding-left: 70px;
 }
 .nav_button {
+  display: none;
   margin-right: 40px;
   width: 120px;
   height: 40px;
@@ -26,4 +27,22 @@
 }
 .nav_button:hover {
   background-color: aliceblue;
+}
+
+@media screen and (max-width: 1000px) {
+  .nav_img {
+    padding-left: 10px;
+  }
+  .nav_button {
+    display: none;
+    margin-right: 40px;
+    width: 120px;
+    height: 40px;
+    background-color: transparent;
+    color: black;
+    border: 1px solid #f04e55;
+    border-radius: 20px;
+    font-size: 13px;
+    cursor: pointer;
+  }
 }

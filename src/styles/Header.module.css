@@ -4,8 +4,7 @@
   align-items: flex-start;
   width: 100vw;
   height: 100vh;
-  overflow-y: hidden;
-  overflow-x: hidden;
+  overflow: hidden;
   margin-top: 100px;
 }
 
@@ -17,7 +16,6 @@
 }
 
 .grid {
-  position: absolute;
   width: 100vw;
   height: 100vh;
   overflow: hidden;
@@ -28,6 +26,7 @@
   align-items: center;
   column-gap: 150px;
 }
+
 .texts {
   width: 600px;
   color: white;
@@ -66,4 +65,49 @@
   border: 1px solid white;
   background-color: transparent;
   color: white;
+}
+
+@media screen and (max-width: 1000px) {
+  .grid {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #222e72ee;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 120px;
+    overflow: scroll;
+    padding-bottom: 50px;
+  }
+  .texts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 90%;
+    color: white;
+    margin-left: 10px;
+  }
+  .texts h1 {
+    padding-top: 30px;
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 10px;
+  }
+  .texts h3 {
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 10px;
+  }
+  .texts p {
+    font-weight: 400;
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .header_img2 {
+    padding-top: 30px;
+    width: 90%;
+    height: 300px;
+    object-fit: cover;
+  }
 }
